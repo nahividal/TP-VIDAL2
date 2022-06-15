@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/style.css">
+<script src="https://kit.fontawesome.com/56cc9ea539.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="./img/png.png">
+<title>MUNDO SALUDABLE | CONTACTO</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navBar">
+            <img class="logo" src="./img/logo.jpg" alt="logo">
+            <ul class="menu">
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./galeria.html">GALERIA</a></li>
+                <li><a href="./nosotros.html">NOSOTROS</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+            <div class="menu-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="shopping">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main-contacto">
+        <form  class="form"  action="" method="get">
+            <label class="label" >
+                <br>
+                <input type="text" placeholder="Juan" name="nombre">
+                <input type="text" placeholder="Perez" name="apellido">
+            </label>
+            <br><br>
+            <label class="label" >
+                <input type="email" placeholder="juanperez@gmail.com" name="correo-electronico">
+            </label>
+            <br><br>
+            <label class="label" >
+                <span>Hombre</span>
+                <input type="radio" name="sexo" value="hombre">
+
+                <span>Mujer</span>
+                <input type="radio" name="sexo" value="mujer">
+
+                <span>Otro</span>
+                <input type="radio" name="sexo" value="otro">
+
+            </label>
+            <br><br>
+            <select name="pais" class="label" >
+                <option value="selection">Seleccione su pais</option>
+                <option value="arg">Argentina</option>
+                <option value="cl">Chile</option>
+                <option value="mx">Mexico</option>
+            </select>
+            <br><br>
+            <label  class="label">
+                <input type="checkbox" name="noticias">
+                <span>Suscribirse al sitio</span>
+            </label>
+            <br><br>
+            <textarea class="label" name="comentario" placeholder="Comentarios" cols="30" rows="10"></textarea>
+            <br>
+            <input class="boton" type="submit">
+        </form>
+    </main>
+
+    <footer class="footer">
+        <ul class="ul">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+    </footer>
+
+
+</body>
+
+</html>
